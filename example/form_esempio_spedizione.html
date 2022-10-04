@@ -5,7 +5,8 @@
     <title>form per sppedizione</title>
 </head>
 <body>
-<form>
+<form id="delivery">
+
 
     <label for="name">Nome</label>
     <input id="name" type="text" name="name" placeholder="nome"><br><br>
@@ -139,10 +140,13 @@
         <option value="VT">Viterbo</option>
     </select>
     <br><br>
-    <label></label>
+    <label for="note">Note</label>
     <textarea name="note" id="note" cols="30" rows="10" placeholder="note"></textarea>
-</form>
 
+    <input type="submit" value="Invia">
+
+</form>
+<button type="reset" form="delivery">Reset</button>
 
 </body>
 </html>
