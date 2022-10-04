@@ -8,25 +8,25 @@
 <form id="delivery">
 
 
-    <label for="name">Nome</label>
+    <label for="name">Nome*</label>
     <input id="name" type="text" name="name" placeholder="nome" required><br><br>
 
-    <label for="lastname">Cognome</label>
+    <label for="lastname">Cognome*</label>
     <input id="lastname" type="text" name="lastname" placeholder="cognome" required><br><br>
 
-    <label for="address">Indirizzo</label>
+    <label for="address">Indirizzo*</label>
     <input id="address" type="text" name="address" placeholder="indirizzo" required><br><br>
 
     <label for="po">Civico</label>
     <input id="po" type="number" name="po"><br><br>
 
-    <label for="cap">Cap</label>
+    <label for="cap">Cap*</label>
     <input type="number" name="cap" id="cap" required><br><br>
 
-    <label for="citta">Città</label>
+    <label for="citta">Città*</label>
     <input id="citta" type="text" name="citta" placeholder="citta" required><br><br>
 
-    <label for="province">Provincia</label>
+    <label for="province">Provincia*</label>
     <select id="province" name="province" required>
         <option value="AG"> Agrigento</option>
         <option value="AL"> Alessandria</option>
@@ -148,6 +148,8 @@
 
 </form>
 <button type="reset" form="delivery">Reset</button>
+
+<p>i campi contrassegnati con * sono obbligatori</p>
 
 </body>
 </html>
