@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>picture</title>
 </head>
 <body>
-$END$
+<picture>
+    <source srcset="mobile-img_smallflower.jpg" media="(max-width: 600px)">
+    <source srcset="tablet_img_flowers.jpg" media="(max-width: 1500px)">
+    <source srcset="desktop_flowers.jpg" media="(min-width: 1500px)>
+<img src=" fallback_img_smallflower.jpg
+    " alt="Flowers">
+</picture>
 </body>
 </html>
