@@ -4,20 +4,20 @@
 body{
     font-family: 'Silkscreen', cursive;
     background-image: 
-    url("img/ottimizzare-immagini-display-retina.jpg")
+    url("/sxdiego.github.io/photo/img/ottimizzare-immagini-display-retina.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0mm;
 }
 
 p{
-    font-size: 15px;
+    font-size: 19px;
     color: white;
+    background-image: none;
 }
 
 h1,h2,h3,h4,h5,h6 {
     color: red;
     font-weight: unset;
 }
-
-
-
-    
-
