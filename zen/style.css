@@ -7,9 +7,9 @@ body{
     url("../photo/img/Senza_titolo-1.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: 0mm;
-    background-size: auto;
+    #background-size: ;
 }
 
 p{
@@ -22,4 +22,3 @@ h1,h2,h3,h4,h5,h6 {
     color: red;
     font-weight: unset;
 }
-
