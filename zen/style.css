@@ -4,7 +4,7 @@
 body{
     font-family: 'Silkscreen', cursive;
     background-image: 
-    url("/photo/img/Senza_titolo-1.jpg");
+    url("../photo/img/Senza_titolo-1.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
