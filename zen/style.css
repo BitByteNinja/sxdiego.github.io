@@ -1,6 +1,6 @@
 @charset "UTF-8";
 @import "heading.css";
-@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+@import url('https: //fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet');
 body{
     font-family: 'Silkscreen', cursive;
     background-image: 
